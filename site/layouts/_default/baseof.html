@@ -16,7 +16,9 @@
   {{ end }}
 </head>
 
-<body>
+<body class="d-flex h-100 text-center text-dark bg-light">
+
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
@@ -28,6 +30,12 @@
   {{ with $script.js }}
     <script src="{{ relURL . }}"></script>
   {{ end }}
+
+</div>
+
+
+
 </body>
+
 
 </html>
