@@ -2,3 +2,4 @@ node_modules
 package-lock.json
 dist
 site/data/webpack.json
+site/data/webpack.json
