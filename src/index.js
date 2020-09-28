@@ -6,5 +6,5 @@ import "./css/main.css";
 console.log("🦊 Hello! Edit me in src/index.js");
 
 $('.carousel').carousel({
-    interval: 1500
+    interval: 2000
   })
