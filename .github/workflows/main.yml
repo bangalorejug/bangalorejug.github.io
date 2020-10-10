@@ -30,7 +30,6 @@ jobs:
         npm install
         npm run build --if-present
         npm test
-        echo 'test.bangalorejug.org' > dist/CNAME
       env:
         CI: true
     - name: Deploy
@@ -39,3 +38,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.BOJUG_GHPAGES_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
+# echo 'test.bangalorejug.org' > dist/CNAME
