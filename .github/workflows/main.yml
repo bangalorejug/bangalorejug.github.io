@@ -38,4 +38,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.BOJUG_GHPAGES_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
-# echo 'test.bangalorejug.org' > dist/CNAME
+echo 'bangalorejug.org' > dist/CNAME
