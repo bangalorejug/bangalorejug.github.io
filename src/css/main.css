@@ -31,3 +31,8 @@
    padding: 0 32px;
  }
  
+ .card-footer span.text-end {
+  float: right;
+  background-color: #FF5D00;
+  margin-right: -15px;
+ }
