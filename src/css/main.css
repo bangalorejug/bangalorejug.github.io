@@ -27,12 +27,40 @@
    text-decoration: none;
  }
  
- .content {
-   padding: 0 32px;
- }
  
- .card-footer span.text-end {
+ /* .card-footer span.text-end {
   float: right;
   background-color: #FF5D00;
   margin-right: -15px;
- }
+ } */
+.card-footer{
+  margin-right: -20px;
+}
+
+ .ribbon {
+  position: relative;
+}
+.ribbon5 {
+  display: block;
+  width:35px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  float: right;
+  margin-right: auto;
+  background: #F47530;
+  position: relative;
+  
+}
+
+.ribbon5:before {
+content: "";
+position: absolute;
+  height: 0;
+  width: 0;
+  
+  left: -15px;
+   border-left: 15px solid transparent;
+  border-top: 15px solid #F47530;
+  border-bottom: 15px solid #F47530;
+}
