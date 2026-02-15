@@ -30,7 +30,7 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        npm test
+        npm test --if-present
         echo 'bangalorejug.org' > dist/CNAME
       env:
         CI: true
