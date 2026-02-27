@@ -36,7 +36,7 @@ jobs:
         CI: true
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
-      env:
+      with:
         GITHUB_TOKEN: ${{ secrets.BOJUG_GHPAGES_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
