@@ -24,7 +24,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <img src="/images/JUG_logo.svg" width="100" height="100" alt="" loading="lazy">
+        <img src='/images/JUG_logo.svg' width="100" height="100" alt="" loading="lazy">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,38 +32,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Core Java
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/blog">Language Basics</a></li>
-              <li><a class="dropdown-item" href="#">Collection</a></li>
-              <li><a class="dropdown-item" href="#">Cuncurrency</a></li>
-              <li><a class="dropdown-item" href="#">Data Access</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold" href='/organisers'>Organisers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="/%20/talks">Datastructure</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="/%20/team">Algorithm</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="/%20/team">Dev Practices</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Spring
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Core</a></li>
-              <li><a class="dropdown-item" href="#">Web</a></li>
-              <li><a class="dropdown-item" href="#">container-fluid</a></li>
-              <li><a class="dropdown-item" href="#">JPA</a></li>
-            </ul>
+            <a class="nav-link text-dark font-weight-bold" href='/talks'>Talks</a>
           </li>
         </ul>
         <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
@@ -91,8 +64,16 @@
             <a class="nav-link p-2" href="https://www.linkedin.com/company/bangalorejug/" target="_blank"
               rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
-                <path
+                <path fill="currentColor"
                   d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item col-6 col-md-auto">
+            <a class="nav-link p-2" href="https://www.meetup.com/bangalorejug/" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M22.463 9.4c-.167-1.428-1.579-2.327-1.579-2.327s-.609-1.547-2.126-1.503c-1.52.046-2.227 1.258-2.227 1.258s-1.127-1.424-2.883-.997c-1.758.423-2.138 2.378-2.138 2.378s-1.879-1.282-3.359-1.077c-1.482.203-2.379 1.48-2.379 1.48s-2.071-.787-3.666-.312C.5 8.769 0 10.612 0 10.612s-.084 1.442.227 3.033c.311 1.588 1.503 2.127 1.503 2.127s.35 2.127 1.932 2.657c1.58.533 2.533.151 2.533.151s.885 1.54 2.894 1.845c2.012.302 3.1-.383 3.1-.383s.779 1.636 2.872 1.548c2.09-.089 2.822-1.2 2.822-1.2s1.464 1.139 3.064.69c1.602-.451 2.213-2.164 2.213-2.164s2.007-.908 2.162-2.383c.159-1.472-.656-2.327-.656-2.327s1.396-1.096 1.482-2.505c.088-1.41-1.042-2.52-1.042-2.52s.562-1.166.357-1.78zm-6.082 3.129c-.894.493-2.617.91-4.04-1.267-1.228 1.346-2.9 2.404-4.896 1.428-.465-.228-1.48-1.48-1.48-1.48s-1.168.307-2.072-.25c-.903-.559-1.107-1.414-1.107-1.414s-.703-1.666-.192-3.21c.51-1.544 2.189-1.921 2.189-1.921s1.294.067 2.062 1.366c.77-1.458 2.204-1.859 3.655-1.11 1.454.747 1.848 1.954 1.848 1.954s.927.027 1.638 1.76c.71 1.733-.51 2.54-.51 2.54s.583 1.096 1.006 1.18c.42.083 1.127.067 1.458-.462.332-.53-.14-1.48-.14-1.48s.547-.468.966-.191c.421.277.584 1.016.32 1.692l-.705 1.442z" />
               </svg>
             </a>
           </li>
