@@ -1,59 +1,89 @@
 {{ define "main" }}
 
-<main class="px-3 ">
+<main class="px-3">
 
-    <div class="container">
-        <div class="row">
+    <div class="container py-4">
+        <div class="row mb-5">
             <div class="col text-center">
-                <h1>Bangalore Java User Group.</h1>
-                <h3>For the Ultimate Java Developers!</h3>
+                <h1 class="display-4 font-weight-bold">Bangalore Java User Group</h1>
+                <h3 class="text-muted">For the Ultimate Java Developers!</h3>
             </div>
         </div>
 
+        <div class="row mb-5">
+            <div class="col-md-10 mx-auto text-center" style="font-size: 1.1rem; line-height: 1.8;">
+                <p class="mb-3">
+                    The purpose of this JUG is to provide a forum to share ideas, discuss and to promote Java and JVM. Anybody with an interest in Java & JVM is encouraged to join. We meet once a month. The meetings will include tech talks, workshops, code jams on various topics related to Java. Come, connect and collaborate at the BOJUG home page, the mailing list, slack and facebook and be a part of something awesome.
+                </p>
+                <p>
+                    We are a group of Java JVM developers in Bangalore, engineers (to say the least) we hope to create a thriving Java community in Bangalore. Java being open sourced is easily one of the greatest piece of news in recent memory for us developers. Now, Java will be adopted even more widely than it was. Part of being open source means to build communities. Communities of developers, users, experts and beginners, which are needed for the greater adoption of Java. These communities are the life-line of any open source product, and as users, it is our responsibility to strengthen Java's life-line.
+                </p>
+            </div>
+        </div>
+
+        <h2 class="text-center mb-4">Upcoming Events</h2>
+        <div class="row mb-5 justify-content-center">
+            <div class="col-md-10">
+                <div class="card border rounded shadow mb-2" style="border-left: 5px solid #007bff !important;">
+                    <div class="card-body p-4">
+                        <span class="badge badge-primary float-right" style="font-size: 0.9rem; padding: 0.4em 0.6em;">Upcoming</span>
+                        <h4 class="card-title text-primary">[In-Person - March] Java Meet-up at Devon Softwares</h4>
+                        <h6 class="card-subtitle mb-3 text-muted" style="line-height: 1.5;">
+                            <strong>Date:</strong> Saturday, March 14, 2026, 9:30 AM – 3:30 PM IST<br>
+                            <strong>Location:</strong> DevOn Software Services Pvt. Ltd., Lower Ground Floor, Building 2A - West Tower, Embassy Tech Village, Deverabeesanahalli, Bellandur, Bengaluru - 560087
+                        </h6>
+                        <p class="card-text pb-2 border-bottom">
+                            An exciting session on AI Native Java in collaboration with DevOn Software Service.
+                        </p>
+                        <h6 class="mt-3 font-weight-bold">Agenda Highlights:</h6>
+                        <ul class="text-muted mb-4" style="font-size: 0.95rem;">
+                            <li class="mb-2"><strong>Talk #1:</strong> From REST APIs to AI Agents: Building Intelligent Java Applications with LangChain4j (Sumanth K S & Giridhar Gopal).</li>
+                            <li class="mb-2"><strong>Talk #2:</strong> Inside Tomorrow’s AI Systems: Tools, MCP & Skills (Spring AI) (Muthukumaran Navaneethakrishnan & Shaama M).</li>
+                            <li><strong>Talk #3:</strong> LLM serving using DJL (Deep Java Library) (Jayakrishnan Ramakumar).</li>
+                        </ul>
+                        <a href="https://www.meetup.com/bangalorejug/events/313429497/" target="_blank" class="btn btn-primary">Join Us on Meetup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mb-4 mt-5">Past Events</h2>
         <div class="row mb-2">
             <div class="col-md-6">
-                <div class="card border rounded shadow-sm h-md-250 mb-2">
+                <div class="card border rounded shadow-sm h-md-250 mb-4">
                     <div class="card-body">
                         <h5 class="card-title">All we need to work with SQL is just SQL</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Tuesday, January 26, 2021</h6>
-                        <p class="card-text">
+                        <p class="card-text" style="font-size: 0.95rem;">
                             Traditionally, we use Languages and Frameworks interact with Relational Databases. 
                             While these are effective in many ways, One problem is that, each of these brings new learning curve. 
                             It will be nice if we use SQL itself as the core skill and build application with plain simple SQL skills. 
                             In this webinar, our very own Sathis will demo this approach with a case study that builds simple, high performing Java application using Postgres database.
                         </p>
-                        <a href="https://postgresconf.org/conferences/postgres-webinar-series/program/proposals/all-we-need-to-work-with-sql-is-just-sql" class="card-link">Join Us</a>
+                        <a href="https://postgresconf.org/conferences/postgres-webinar-series/program/proposals/all-we-need-to-work-with-sql-is-just-sql" target="_blank" class="card-link">View Details</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
-
-            
-                <div class="card border rounded shadow-sm h-md-250 mb-2">
+                <div class="card border rounded shadow-sm h-md-250 mb-4">
                     <div class="card-body">
                         <h5 class="card-title">Azure Kubernetes Day</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Saturday, January 30, 2021</h6>
-                        <p class="card-text">
-                            Azure Kubernetes Day is a one day (30 January 2021), virtual,developer-focused, 
+                        <p class="card-text" style="font-size: 0.95rem;">
+                            Azure Kubernetes Day is a one day (30 January 2021), virtual, developer-focused, 
                             community driven conference themed on the various use cases of Kubernetes
                             on Azure, meant for professionals & developers!.
                             What to expect? Demo heavy talks by expert speakers on the theme ‘Kubernetes on Azure’ 
                             starting from best & latest practices bringing you a one-stop learning platform for your Kubernetes journey!
                         </p>
-                        <a href="https://www.meetup.com/bangalorejug/events/275928896" class="card-link">Join Us</a>
+                        <a href="https://www.meetup.com/bangalorejug/events/275928896" target="_blank" class="card-link">View Details</a>
                     </div>
                 </div>
             </div>
             
-
-            
         </div>
     </div>
-
-
-
-
 
 </main>
 
